@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <style>
+        body{
+            background-color: #EE82EE;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            display: flex;
+            width: 300px;
+            background-color: #F5F5DC; 
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100px;
+            height: auto;
+            display: block;
+            flex-shrink: 0;
+        }
+
+        .product-info {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .product-info h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .product-info p.price {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <ul><a href="index.html">Inicio</a></ul>
+     <ul><a href="proyectoABP.html">Volver</a></ul>
+    <div class="container">
+
+
+        <div class="product" onclick="showMessage('TOSTADAS')">
+            <img src="tostadas.jpg" alt="Tostadas">
+            <div class="product-info">
+                <h2>TOSTADAS</h2>
+                <p class="price">$25.00</p>
+            </div>
+        </div>
+
+
+        <div class="product" onclick="showMessage('DORITOS')">
+            <img src="doritos.jpg" alt="Doritos">
+            <div class="product-info">
+                <h2>DORITOS</h2>
+                <p class="price">$20.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('GOMITAS')">
+            <img src="panditas.jpg" alt="Gomitas">
+            <div class="product-info">
+                <h2>GOMITAS</h2>
+                <p class="price">$20.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('GALLETAS')">
+            <img src="galletas.jpg" alt="Galletas">
+            <div class="product-info">
+                <h2>GALLETAS</h2>
+                <p class="price">$25.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('PAN-BIMBO')">
+            <img src="pan.jpg" alt="Pan Bimbo">
+            <div class="product-info">
+                <h2>PAN-BIMBO</h2>
+                <p class="price">$40.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('COCA-COLA')">
+            <img src="cocacola.jpg" alt="Coca-Cola">
+            <div class="product-info">
+                <h2>COCA-COLA</h2>
+                <p class="price">$20.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('CARLOS V')">
+            <img src="carlosv.jpg" alt="Carlos V">
+            <div class="product-info">
+                <h2>CARLOS V</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('MAGNUM')">
+            <img src="magnum.jpg" alt="Magnum">
+            <div class="product-info">
+                <h2>MAGNUM</h2>
+                <p class="price">$20.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('PALOMITAS')">
+            <img src="palomitas.jpg" alt="Palomitas">
+            <div class="product-info">
+                <h2>PALOMITAS</h2>
+                <p class="price">$20.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('BOING')">
+            <img src="boing.jpg" alt="Boing">
+            <div class="product-info">
+                <h2>BOING</h2>
+                <p class="price">$20.00</p>
+            </div>
+        </div>
+        <div class="product" onclick="showMessage('PEPSI')">
+            <img src="pepsi.jpg" alt="Pepsi">
+            <div class="product-info">
+                <h2>PEPSI</h2>
+                <p class="price">$16.00</p>
+            </div>
+        </div>
+
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+
+
+        <div class="product" onclick="showMessage('SABRITAS')">
+            <img src="sabritas.jpg" alt="Sabritas">
+            <div class="product-info">
+                <h2>SABRITAS</h2>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+
+
+
+
+
+    <script>
+        function showMessage(productName) {
+            alert("Has seleccionado el producto: " + productName);
+        }
+    </script>
+</body>
+</html>
